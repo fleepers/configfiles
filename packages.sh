@@ -4,3 +4,4 @@ mkdir ~/.config/alacritty
 cp alacritty.yml ~/.config/alacritty
 rm -r ~/.config/i3
 cp -r i3 ~/.config
+sudo chmod +x ~/.config/i3/scripts/*
