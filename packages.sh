@@ -1,5 +1,7 @@
 #!/bin/bash
-sudo pacman -S rofi ttf-font-awesome python3 firefox nitrogen thunar alacritty neofetch discord
+sudo pacman -S rofi ttf-font-awesome python3 firefox nitrogen thunar alacritty neofetch discord pavucontrol
+mkdir ~/wp
+wget https://i.imgur.com/pmoIi8X.jpg ~/wp
 mkdir ~/.config/alacritty
 cp alacritty.yml ~/.config/alacritty
 rm -r ~/.config/i3
@@ -13,3 +15,5 @@ cd
 rm -rf /tmp/yay
 yay --version
 yay -S ttf-material-design-icons
+yay -S spotify
+
