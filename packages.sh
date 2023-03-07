@@ -1,5 +1,5 @@
 #!/bin/bash
-pacman -S git rofi ttf-font-awesome ttf-material-design-icons python3 firefox nitrogen thunar alacritty neofetch discord
+pacman -S rofi ttf-font-awesome ttf-material-design-icons python3 firefox nitrogen thunar alacritty neofetch discord
 cd /opt
 git clone https://aur.archlinux.org/yay-git.git
 chown -R tt:tt ./yay-git
