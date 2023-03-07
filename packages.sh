@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S rofi ttf-font-awesome python3 firefox nitrogen thunar alacritty neofetch discord pavucontrol picom
+sudo pacman -S rofi ttf-font-awesome python3 firefox nitrogen thunar alacritty neofetch discord pavucontrol picom code
 mkdir ~/wp
 cp wp.jpg ~/wp
 mkdir ~/.config/alacritty
