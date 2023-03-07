@@ -1,11 +1,5 @@
 #!/bin/bash
-pacman -S rofi ttf-font-awesome ttf-material-design-icons python3 firefox nitrogen thunar alacritty neofetch discord
-cd /opt
-git clone https://aur.archlinux.org/yay-git.git
-chown -R tt:tt ./yay-git
-cd yay-git
-makepkg -si
-cd ~
+pacman -S rofi ttf-font-awesome python3 firefox nitrogen thunar alacritty neofetch discord
 git clone https://github.com/fleepers/configfiles/
 mkdir ~/.config/alacritty
 cp configfiles/alacritty.yml ~/.config/alacritty
