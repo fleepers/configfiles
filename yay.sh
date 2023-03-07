@@ -7,3 +7,4 @@ makepkg -si
 cd
 rm -rf /tmp/yay
 yay --version
+yay -S ttf-material-design-icons
