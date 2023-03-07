@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo pacman -S rofi ttf-font-awesome python3 firefox nitrogen thunar alacritty neofetch discord pavucontrol picom
 mkdir ~/wp
-cp wp.png ~/wp
+cp wp.jpg ~/wp
 mkdir ~/.config/alacritty
 cp alacritty.yml ~/.config/alacritty
 rm -r ~/.config/i3
