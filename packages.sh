@@ -10,7 +10,9 @@ sudo chmod +x ~/.config/i3/scripts/*
 mkdir -p ~/.local/share/rofi/themes/
 cp squared-material-red.rasi ~/.local/share/rofi/themes/
 cp config.rasi ~/.config/rofi/
+mkdir ~/.screenlayout
 cp monitor.sh ~/.screenlayout
+sudo chmod +x ~/.screenlayout
 mkdir /tmp/yay
 cd /tmp/yay
 curl -OJ 'https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=yay'
