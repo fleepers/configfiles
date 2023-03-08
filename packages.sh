@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S rofi ttf-font-awesome python3 firefox nitrogen thunar libreoffice-fresh alacritty neofetch discord pavucontrol picom code gamemode lib32-gamemode arandr pamixer steam nvidia-settings
+sudo pacman -S rofi ttf-font-awesome python3 firefox nitrogen thunar libreoffice-fresh alacritty neofetch discord pavucontrol picom code gamemode lib32-gamemode arandr pamixer steam flatpak nvidia-settings
 mkdir ~/wp
 cp wp.jpg ~/wp
 mkdir ~/.config/alacritty
