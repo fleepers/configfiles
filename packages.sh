@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S rofi ttf-font-awesome python3 firefox nitrogen thunar alacritty neofetch discord pavucontrol picom code gamemode lib32-gamemode arandr
+sudo pacman -S rofi ttf-font-awesome python3 firefox nitrogen thunar alacritty neofetch discord pavucontrol picom code gamemode lib32-gamemode arandr steam
 mkdir ~/wp
 cp wp.jpg ~/wp
 mkdir ~/.config/alacritty
@@ -18,4 +18,4 @@ rm -rf /tmp/yay
 yay --version
 yay -S ttf-material-design-icons
 yay -S spotify
-
+yay -S teams-for-linux
