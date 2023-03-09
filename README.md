@@ -10,7 +10,7 @@ A simple install and setup script to get an i3 + base Arch install looking how I
 - LibreOffice + windows fonts
 - Sound controls so my multimedia keys work
 - VSCode + python3
-- Thunar file manager
+- Thunar file manager + samba for shares
 - nitrogen for wallpapers
 - arandr + config so my monitors work
 - nvidia-settings so my monitors work...
