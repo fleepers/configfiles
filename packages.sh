@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S rofi ttf-font-awesome python3 firefox nitrogen thunar cpupower libreoffice-fresh p7zip alacritty neofetch lxappearance discord pavucontrol picom code samba smbclient gvfs-smb gamemode lib32-gamemode arandr pamixer steam flatpak nvidia-settings
+sudo pacman -S rofi ttf-font-awesome python3 firefox nitrogen thunar cpupower libreoffice-fresh p7zip alacritty neofetch lxappearance discord pavucontrol code samba smbclient gvfs-smb gamemode lib32-gamemode arandr pamixer steam flatpak nvidia-settings
 sudo cpupower frequency-set -g performance
 mkdir ~/wp
 cp wp.jpg ~/wp
