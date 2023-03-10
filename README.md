@@ -3,6 +3,7 @@
 A simple install and setup script to get an i3 + base Arch install looking how I want it from a fresh install
 # What gets installed
 - my i3 config with all my shortcuts
+- polybar shamelessly stolen from EOS because i am a fraud
 - yay for accessing AUR
 - rofi + themes + config
 - picom compositor
