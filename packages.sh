@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S rofi ttf-font-awesome python3 firefox swaybg thunar cpupower libreoffice-fresh p7zip alacritty neofetch lxappearance qt5-wayland qt6-wayland discord pavucontrol code samba smbclient gvfs-smb gamemode lib32-gamemode wine winetricks wine-mono mono pamixer steam flatpak
+sudo pacman -S rofi ttf-font-awesome python3 firefox swaybg thunar gamescope cpupower libreoffice-fresh p7zip alacritty neofetch lxappearance qt5-wayland qt6-wayland discord pavucontrol code samba smbclient gvfs-smb gamemode lib32-gamemode wine winetricks wine-mono mono pamixer steam flatpak
 sudo cpupower frequency-set -g performance
 mkdir ~/wp
 cp wp.jpg ~/wp
