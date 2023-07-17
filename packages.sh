@@ -29,6 +29,6 @@ yay -S ttf-ms-win10-auto
 yay -S p7zip-gui
 yay -S spotify
 yay -S teams-for-linux
-yay -S davinci-resolve-studio
+yay -S davinci-resolve-studio --mflags PKGEXT='.pkg.tar'
 yay -S amdgpu-pro-oglp
 yay -S opencl-amd
