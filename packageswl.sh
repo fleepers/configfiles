@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S ttf-font-awesome python3 sddm firefox thunar cpupower libreoffice-fresh p7zip neofetch discord pavucontrol code samba smbclient gvfs-smb gamemode lib32-gamemode wine winetricks wine-mono mono steam flatpak
+sudo pacman -S ttf-font-awesome python3 sddm podman distrobox firefox thunar cpupower libreoffice-fresh p7zip neofetch discord pavucontrol code samba smbclient gvfs-smb gamemode lib32-gamemode wine winetricks wine-mono mono steam flatpak
 sudo cpupower frequency-set -g performance
 sudo systemctl enable sddm.service
 mkdir /tmp/yay
@@ -22,6 +22,3 @@ cp -r ./hypr/configs/* ~/.config/
 yay -S p7zip-gui
 yay -S spotify
 yay -S teams-for-linux
-yay -S davinci-resolve-studio --mflags PKGEXT='.pkg.tar'
-yay -S amdgpu-pro-oglp
-yay -S opencl-amd
